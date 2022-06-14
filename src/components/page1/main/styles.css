@@ -1,0 +1,97 @@
+.main1-body{
+    color: #fff;
+}
+
+.widget{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 0;
+    border-top: 5px solid gray;
+}
+
+.widget1{
+    gap: 80px;
+}
+
+.widget1 .img img{
+    width: 480px;
+}
+
+.widget .text h3{
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.widget .text p{
+    margin-top: 10px;
+    font-size: 15px;
+    font-weight: 500;
+    word-spacing: 1px;
+    line-height: 22px;
+}
+
+.widget2 {
+    gap: 130px;
+}
+
+.widget2 .img2 img{
+    width: 250px;
+}
+
+.widget3{
+    gap: 100px;
+}
+
+.widget3 img{
+    width: 400px;
+} 
+
+@media screen and (max-width: 638px) {
+    .widget{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding: 40px 0;
+    }
+
+    .widget1,
+    .widget2,
+    .widget3{
+        gap: 30px;
+    }
+
+    .widget .text h3{
+        font-size: 25px;
+    }
+
+    .widget1 .img img,
+    .widget2 .img img,
+    .widget3 .img img{
+        width: 100%;
+    }
+}
+
+
+@media screen and (min-width: 638px) and (max-width: 950px){
+
+    .widget1,
+    .widget2,
+    .widget3{
+        gap: 50px;
+        text-align: center;
+        padding: 0px 20px;
+    }
+
+    .widget1 .img img{
+        width: 380px;
+    }
+
+    .widget2 .img img{
+        width: 120px;
+    }
+
+    .widget3 .img img{
+        width: 320px;
+    }
+}

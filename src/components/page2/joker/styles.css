@@ -1,0 +1,49 @@
+.joker-body{
+    background-image: url('/public/images/misc/joker1.jpg');
+    width: 100%;
+    height: 700px;
+    background-size: cover;
+    background-position: center;
+    margin-top: -55px;
+    position: relative;
+}
+
+.joker-body .text{
+    color: #fff;
+    position: absolute;
+    top: 41%;
+    left: 3%;
+}
+
+.joker-body .text h1{
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.joker-body .text p{
+    margin-top: 8px;
+    line-height: 23px;
+}
+
+.joker-body .text button{
+    width: 100px;
+    height: 30px;
+    margin-top: 8px;
+    font-size: 16px;
+    border-radius: 3px;
+    z-index: 100;
+    transition: all .3s;
+    cursor: pointer;
+}
+
+
+.joker-body .text button:hover{
+    box-shadow: 0 0 6px #fff;
+}
+
+
+@media screen and (max-width: 1024px){
+    .joker-body{
+        display: none;
+    }
+}

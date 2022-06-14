@@ -1,0 +1,60 @@
+.according-body{
+    width: 100%;
+    border-top: 5px solid gray;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.according-body h1{
+    font-size: 35px;
+    color: #fff;
+}
+
+.according{
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    gap: 10px;
+    margin-top: 30px;
+}
+
+
+.sub-input-body-according{
+    margin-top:30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sub-input-body-according input{
+    width: 350px;
+    height: 50px;
+    padding: 0 10px;
+    font-size: 17px;
+}
+
+.sub-input-body-according button{
+    width: 150px;
+    height: 50px;
+    color: #fff;
+    background: var(--red);
+    font-size: 17px;
+}
+
+.according-body p{
+    color: #fff;
+    font-size: 13px;
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+.css-yxcayi-MuiPaper-root-MuiAccordion-root{
+    background-color: black !important;
+}
+
+@media screen and (max-width: 638px) {
+    .according{
+        width: 100%;
+    }
+}

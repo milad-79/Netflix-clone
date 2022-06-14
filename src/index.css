@@ -1,0 +1,17 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  text-decoration: none;
+  border: none;
+  outline: none;
+}
+
+body{
+  background-color: black;
+}
+
+:root{
+  --red: #d62828;
+}

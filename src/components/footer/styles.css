@@ -1,0 +1,25 @@
+.link-footer{
+    color: #fff;
+    font-size: 13px;
+    font-weight: 300;
+}
+
+.link-footer:hover{
+    opacity: .8;
+}
+
+.body-links-footer{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    cursor: pointer;
+}
+
+.footer{
+    padding: 50px 0;
+    border-top: 5px solid gray;
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+    flex-wrap: wrap;
+}
