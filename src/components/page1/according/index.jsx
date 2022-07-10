@@ -21,17 +21,17 @@ const Accordion = styled((props) => (
 
 const AccordionSummary = styled((props) => (
   <MuiAccordionSummary
-    expandIcon={<Add sx={{ fontSize: "1.6rem", color: "#fff" }} />}
+    expandIcon={<Add sx={{ fontSize: "2rem", color: "#fff"}} />}
     {...props}
   />
 ))(({ theme }) => ({
   backgroundColor: "#303030",
-  flexDirection: "row-reverse",
-  padding: "5px 0",
+  padding: "10px 0",
   "& .MuiAccordionSummary-content": {
     marginLeft: theme.spacing(1),
   },
   color: "#fff",
+  fontSize: '15px'
 }));
 
 const AccordionDetails = styled(MuiAccordionDetails)(({ theme }) => ({

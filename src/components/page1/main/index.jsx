@@ -1,4 +1,5 @@
 import "./styles.css";
+import React from "react";
 
 function MainPage1() {
   return (
@@ -63,4 +64,4 @@ function MainPage1() {
   );
 }
 
-export default MainPage1;
+export default React.memo(MainPage1);

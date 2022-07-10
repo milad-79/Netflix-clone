@@ -7,13 +7,22 @@
     padding: 10px 20px;
 }
 
-.log-log{
+.left{
+    z-index: 100;
+}
+
+.left img{
     width: 150px;
     object-fit: cover;
     cursor: pointer;
+    z-index: 1000;
 }
 
-.sing-ing-btn{
+.right{
+    z-index: 100;
+}
+
+.sing_ing_btn{
     background: var(--red);
     font-size: 17px;
     color: #fff;
@@ -23,6 +32,20 @@
     transition: all .3s;
 }
 
-.sing-ing-btn:hover{
+.sing_ing_btn:hover{
     box-shadow: 0 0 8px var(--red);
+}
+
+.profile_img{
+    width: 35px;
+    height: 35px;
+    border-radius: 4px;
+    z-index: 100;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.profile_img img{
+    width: 100%;
+    height: 100%;
 }

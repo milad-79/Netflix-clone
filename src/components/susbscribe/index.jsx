@@ -3,11 +3,11 @@ import './styles.css';
 
 function Subscribe() {
     return ( 
-        <div className="sub-body">
-                <div className='sub-content'>
+        <div className="sub_body">
+                <div className='sub_content'>
                     <h2>Unlimited films, Tv<br/> programmes and more.</h2>
                     <span>Watch anywhere. Cancel at any time.</span>
-                    <div className='sub-input-body'>
+                    <div className='sub_input_body'>
                         <input type='text'/>
                         <button>
                             TRY IT NOW

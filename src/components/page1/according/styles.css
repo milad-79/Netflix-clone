@@ -40,6 +40,12 @@
     color: #fff;
     background: var(--red);
     font-size: 17px;
+    transition:all .3s;
+    cursor: pointer;
+}
+
+.sub-input-body-according button:hover{
+    opacity: .8;
 }
 
 .according-body p{

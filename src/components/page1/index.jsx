@@ -1,9 +1,8 @@
 import React from 'react';
-import HeaderLogPage from '../haeder/hader-page-login';
+import HeaderLogPage from '../haeder/hader-pages/index';
 import Subscribe from '../susbscribe';
 import MainPage1 from './main';
 import CustomizedAccordions from './according';
-import './styles.css';
 import Footer from '../footer';
 
 function Page1() {
